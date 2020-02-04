@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var image: UIImageView!
     
     var wordToGuess = "SWIFT"
-    var lettersGuessed = "XWSET"
+    var lettersGuessed = ""
     let maxNumberOfWrongGuesses = 8
     var wrongGuessesRemaining = 8
     var guesscount  = 0
@@ -60,8 +60,9 @@ class ViewController: UIViewController {
       }
     
     @IBAction func guessletterbottonpressed(_ sender: UIButton) {
-        updateUIAfterGuess()
+        
         guessALetter()
+        updateUIAfterGuess()
         
     }
     

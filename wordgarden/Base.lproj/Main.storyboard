@@ -57,9 +57,6 @@
                                         <connections>
                                             <action selector="Donekeypressed:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="DlI-dK-VB0"/>
                                             <action selector="Editchanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="Sj7-eK-kRW"/>
-                                            <action selector="Guessclick:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="a3q-Wk-P1k"/>
-                                            <action selector="guessletterfieldchange:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="KC4-1s-OXb"/>
-                                            <action selector="textfieldtrigger:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="svT-am-cU3"/>
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsP-U8-6AE">
@@ -69,7 +66,6 @@
                                         </constraints>
                                         <state key="normal" title="Guess this letter "/>
                                         <connections>
-                                            <action selector="Guessclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0NM-Yw-s1C"/>
                                             <action selector="guessletterbottonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ct4-Ra-how"/>
                                         </connections>
                                     </button>
@@ -91,7 +87,6 @@
                         <outlet property="UserguessLabel" destination="lJx-6K-X2r" id="Smt-c3-z0z"/>
                         <outlet property="guessLetterField" destination="02n-ie-cQ3" id="dvR-r1-u9v"/>
                         <outlet property="guesscountlabel" destination="zBr-fY-STw" id="koo-8E-gxy"/>
-                        <outlet property="guesslayerfield" destination="ocS-SH-JU0" id="xyi-hD-gaO"/>
                         <outlet property="guessletterbutton" destination="jsP-U8-6AE" id="131-UB-GZL"/>
                         <outlet property="image" destination="mXh-G2-Ktw" id="cHZ-Uf-hPs"/>
                         <outlet property="playagainbotton" destination="sNB-TD-XLF" id="S8T-1B-abV"/>
