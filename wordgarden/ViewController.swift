@@ -55,8 +55,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func Donekeypressed(_ sender: Any) {
-          updateUIAfterGuess()
+          
           guessALetter()
+        updateUIAfterGuess()
+        
+        
+        
+        
       }
     
     @IBAction func guessletterbottonpressed(_ sender: UIButton) {
